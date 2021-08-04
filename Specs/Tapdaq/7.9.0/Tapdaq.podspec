@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.subspec "AdColony" do |adcolony|
     adcolony.dependency 'Tapdaq/AdColonyAdapter'
-    adcolony.dependency "AdColony", "4.6.1"
+    adcolony.dependency "AdColony", "4.7.0"
   end
   
   s.subspec "AdColonyAdapter" do |adapter|
